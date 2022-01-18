@@ -1,0 +1,11 @@
+[package]
+name = "gitflow-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.15", features = ["rt", "fs", "process"] }
+serde = { version = "1.0", features = ["derive"] }
+semver = "1.0"
+git2 = "0.13"
+hex = "0.4"
